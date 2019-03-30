@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,600');
+@import url('https://fonts.googleapis.com/css?family=Germania+One');
+@import url('https://fonts.googleapis.com/css?family=Acme');
+*
+{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:#24272E; 
+    text-align:center;
+}
+header{
+    background:white;
+    padding:20px;
+}
+header > h1{
+    color:#25272E;
+    text-align:center;
+    font-family:Asap, sans-serif;
+}
+.score-board{
+    border:2px solid white;
+    width:100px;
+    margin:20px auto;
+    color:white;
+    position:relative;
+    padding:20px 10px;
+    font-size:46px;
+}
+#user-label{
+    top:35px;
+    left:-17px;
+    padding:4px;
+    font-size:15px;
+    position:absolute;
+    background: red;
+}
+#comp-label{
+    top:35px;
+    right:-27px;
+    padding:4px; 
+    font-size:15px;
+    position:absolute;
+    background: red;
+}
+#result{
+    font-family:Asap, sans-serif;
+    font-weight: 800;
+    color:white;
+    margin-bottom:20px;
+    text-transform: capitalize;
+}
+img
+{
+    border: 2px solid black;
+    margin : 5px 10px;
+    border-radius:50px;
+    background:yellow;
+    transition:all 0.3s ease-in;
+}
+#para{
+    margin-top:20px;
+    font-weight:800;
+    text-transform: uppercase;
+    color:violet;
+    font-size:40px;
+    font-family: 'Germania One', cursive;
+  
+}
+#para:hover{
+    cursor:pointer;
+    outline:none;
+}
+img:hover{
+    cursor:pointer;
+    background:rgba(61, 17, 57, 0.829);
+    outli
+}
+#end_result
+{
+    color:white;
+    margin-top:20px;
+    font-family: 'Acme', sans-serif;
+    font-size:36px;
+    font-weight: bold;
+}
+#rounds{
+    color:rgba(51, 105, 29, 0.795);
+    margin: 10px auto;
+    font-family: 'Germania One', cursive;
+    font-size:20px;
+}
